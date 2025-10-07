@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index Template</title>
+    <link rel="stylesheet" href="./CSS/template.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient bg-opacity-75">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="images/logo.png" alt="Logo" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+            <li class="nav-item"><a class="nav-link" id="welcomeUser">Welcome! </a></li>
+          </ul>
+
+          <ul class="navbar-nav mb-auto mb-2 mb-lg-0" >
+            <li class="nav-item"><a class="nav-link" href="#" id="homeLink">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./login_template.html">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Post blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Image carousel-->
+    <div id="carouselExampleAutoplaying" class="carousel slide custom-carousel" data-bs-ride="carousel" data-bs-interval="9000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/car.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/plant2.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pasta.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/view.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/square_cat.jpg" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+      <!-- User's posts table -->
+      <div class="table-container">
+        <div class="table-responsive custom-table">
+          <table class="table table-borderless align-middle">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">Changes</th>
+                <th scope="col">Date</th>
+                <th scope="col">Hour</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <td>created</td>
+                <td>2020-11-23</td>
+                <td>23:21</td>
+              </tr>
+              <tr>
+                <td>updated</td>
+                <td>2020-11-23</td>
+                <td>23:21</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <a href=#>Send blog</a>
+      </div>
+
+      <!-- Recent Posts Table -->
+      <div class="table-container recent-posts">
+        <div class="table-responsive custom-table">
+          <table class="table table-borderless align-middle">
+            <thead class="table-dark">
+              <tr>
+                <th colspan="5" class="text-right">Recent Posts</th>
+              </tr>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Post</th>
+                <th scope="col">Author</th>
+                <th scope="col">Created</th>
+                <th scope="col">Updated</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider table-secondary">
+              <tr class="post-row">
+                <td><a href="#" class="post-link">Exploring the Mountains</a></td>
+                <td>Tips and stories from my latest hiking trip.</td>
+                <td>John Doe</td>
+                <td>2025-09-28 09:15:22</td>
+                <td>2025-09-29 10:47:58</td>
+              </tr>
+              <tr class="post-row">
+                <td><a href="#" class="post-link">City Photography Guide</a></td>
+                <td>How to capture stunning urban shots at night.</td>
+                <td>Jane Smith</td>
+                <td>2025-09-20 14:32:10</td>
+                <td>2025-09-22 16:11:47</td>
+              </tr>
+              <tr class="post-row">
+                <td><a href="#" class="post-link">Homemade Pasta Secrets</a></td>
+                <td>A step-by-step guide to making fresh pasta.</td>
+                <td>Marco Rossi</td>
+                <td>2025-09-18 11:05:43</td>
+                <td>2025-09-18 11:05:43</td>
+              </tr>
+              <tr class="post-row">
+                <td><a href="#" class="post-link">The Future of AI</a></td>
+                <td>Discussing the ethical and social implications of AI growth.</td>
+                <td>Sarah Lee</td>
+                <td>2025-09-15 08:25:33</td>
+                <td>2025-09-25 13:59:20</td>
+              </tr>
+              <tr class="post-row">
+                <td><a href="#" class="post-link">Gardening for Beginners</a></td>
+                <td>Simple tips to start your home garden successfully.</td>
+                <td>Emily Clark</td>
+                <td>2025-09-10 17:12:07</td>
+                <td>2025-09-12 09:40:56</td>
+              </tr>
+              <tr class="post-row">
+                <td><a href="#" class="post-link">Travel on a Budget</a></td>
+                <td>Smart ways to explore new places without overspending.</td>
+                <td>Alex Brown</td>
+                <td>2025-09-08 07:50:32</td>
+                <td>2025-09-09 11:22:18</td>
+              </tr>
+              <tr class="post-row">
+                <td><a href="#" class="post-link">Mindful Living</a></td>
+                <td>How mindfulness practices can improve your daily routine.</td>
+                <td>Linda White</td>
+                <td>2025-09-05 19:33:05</td>
+                <td>2025-09-06 09:01:12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </flex>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Particles.js configuration for background -->
+    <script>
+      particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": { "enable": true, "value_area": 800 }
+          },
+          "color": { "value": "#f2f2f2" },
+          "shape": {
+            "type": "circle",
+            "stroke": { "width": 0, "color": "#000000" },
+            "polygon": { "nb_sides": 5 }
+          },
+          "opacity": { "value": 0.5 },
+          "size": { "value": 3, "random": true },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "out_mode": "out"
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": { "enable": true, "mode": "repulse" },
+            "onclick": { "enable": true, "mode": "push" },
+            "resize": true
+          },
+          "modes": {
+            "repulse": { "distance": 200, "duration": 0.4 },
+            "push": { "particles_nb": 4 }
+          }
+        },
+        "retina_detect": false
+      });
+    </script>
+    <script>
+      // Get stored username from localStorage
+      const user = localStorage.getItem("username");
+      const welcomeLink = document.getElementById("welcomeUser");
+      const homeLink = document.getElementById("homeLink");
+
+
+      // Updates welcome message after login/register
+      if (user) {
+        welcomeLink.textContent = `Welcome${user}`;
+      }
+
+      homeLink.addEventListener("click", () => {
+        localStorage.removeItem("username");
+        window.location.href = "index_template.html";
+      });
+    </script>
+  </body>
+</html> 
